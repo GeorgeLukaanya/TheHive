@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /*color:#350827;*/
 }
 
 /*This is for the header section by George*/
@@ -489,6 +490,7 @@ img {
 .booking-form {
   padding: 20px 500px 20px 500px;
   background-color: #f9f9f9;
+  
 }
 
 .booking-form h2 {
@@ -497,6 +499,9 @@ img {
 
 .form-group {
   margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 label {
