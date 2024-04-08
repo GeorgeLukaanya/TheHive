@@ -113,6 +113,7 @@ contactContainer{
     font-weight: 20;
     font-size: 20px;
     position: relative;
+    color:#350827
 }
 @media (max-width: 600px){
     .Contactimage{
@@ -490,12 +491,15 @@ img {
 }
 
 .room-description {
-  padding: 0 20px;
+  /*padding: 0 20px;*/
+  padding: 20px 500px 20px 500px;
+  color:#350827;
 }
 
 .booking-form {
   padding: 20px 500px 20px 500px;
   background-color: #f9f9f9;
+  color:#350827;
   
 }
 
