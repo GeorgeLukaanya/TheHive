@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /*color:#350827;*/
 }
 
 /*This is for the header section by George*/
@@ -29,7 +30,7 @@
   }
 
   .nav a {
-    color: #160202;
+    color: #350827;
     text-decoration: none;
     text-align: center;
     float: left;
@@ -41,7 +42,7 @@
   
   .nav a.active{
     background-color: #5F9EA0;
-    color: #000000;
+    color: #532345;
   }
 
 
@@ -76,6 +77,54 @@ contactContainer{
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
+/*Css for the Overview page opening*/
+/*location css*/
+  .intro{
+    text-align: justify;
+  }
+
+  .location{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    margin-right: 20%;
+    
+  }
+
+  .overview-items{
+    color: #350827;
+  }
+  .section-header{
+    align-content: center;
+    font-size: x-large;
+    padding-left: 15%;
+
+  }
+  h1,h2{
+    text-align: center;
+    font-size: x-large;
+    color: #350827;
+    
+  }
+  h1{
+    font-size: xx-large;
+  }
+  .image-text{
+    /*padding-right: 10px;*/
+    margin-left: 10%;
+  }
+  .image{
+    margin-right: 15%;
+  }
+  .description{
+    float: right;
+    width: 60%;
+    /*margin-top: 0px;*/
+    margin-left: 1%;
+    padding-right: 10%;
+    align-content: baseline;
+  }
+
 /*This formats the introductory image on the contact page*/
 .Contactimage{
     flex:1;
@@ -113,6 +162,7 @@ contactContainer{
     font-size: 25px;
     padding-top: 20px;
     position: relative;
+    color:#350827
 }
 @media (max-width: 600px){
     .Contactimage{
@@ -387,8 +437,30 @@ footer{
     margin-bottom: 20px;
     /*border-style: solid;
     border-color: #000;*/
+    color: #350827;
 }
 
+.prices{
+    /*border: solid;*/
+    width: 100%;
+    height:50px;
+    text-align: center;
+    background-color: rgb(240, 239, 238);
+}
+
+.price-value{
+    font-family:monospace;
+    font-size: 38px;
+    text-decoration: wavy;
+    text-align: center;
+    text-shadow: #532345;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section-header, .description > .intro, .room-special{
+    color:#350827;
+}
 .essential-container {
     flex:1;
     position: relative;
@@ -498,12 +570,16 @@ img {
 }
 
 .room-description {
-  padding: 0 20px;
+  /*padding: 0 20px;*/
+  padding: 20px 500px 20px 500px;
+  color:#350827;
 }
 
 .booking-form {
   padding: 20px 500px 20px 500px;
   background-color: #f9f9f9;
+  color:#350827;
+  
 }
 
 .booking-form h2 {
@@ -512,6 +588,9 @@ img {
 
 .form-group {
   margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 label {
