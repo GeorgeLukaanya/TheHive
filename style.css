@@ -74,7 +74,7 @@ contactContainer{
     padding: 20px 150px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 /*This formats the introductory image on the contact page*/
 .Contactimage{
@@ -110,7 +110,8 @@ contactContainer{
 .IntroInfo p{
     text-align: left;
     font-weight: 20;
-    font-size: 20px;
+    font-size: 25px;
+    padding-top: 20px;
     position: relative;
 }
 @media (max-width: 600px){
@@ -133,7 +134,7 @@ contactContainer{
     margin-top: 20px;
     margin-bottom: 20px;
     color: #350827;
-    background-color: rgb(239, 239, 234);
+    bsackground-color: rgb(239, 239, 234);
 }
 /*This formats the data on the left the map*/
 .mapdescription{
@@ -192,6 +193,11 @@ contactContainer{
     padding-bottom: 30px;
 }
 
+.contactformIntro h1{
+    font-size: 40px;
+}
+.contactformIntro p{
+    font-size: 25px;
 }
 .contactformArea{
     float: right;
@@ -200,6 +206,9 @@ contactContainer{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 40px;
+}
+label{
+    font-size: 22px;
 }
 .input[type="text"]{
     width: 70%;
