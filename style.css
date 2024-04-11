@@ -174,13 +174,15 @@ contactContainer{
 .Contactimage{
     flex:1;
     float: left;
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
-    width: 50%;
-    height: 300px;
+    width: 100%;
+    height: 500px;
+    max-height: 600px;
     margin-right: 20px;
     display: flex;
     position: relative;
+    /*border: solid;*/
 }
 .Contactimage img{
     width: 100%;
@@ -371,6 +373,7 @@ footer{
        /* border: solid;*/
         margin-top: auto;
         background-color: #350827;
+        
     }
 /*This formats whatever is contained in the footer*/
 .footerContainer{ 
