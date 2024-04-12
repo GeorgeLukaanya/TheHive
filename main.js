@@ -1,6 +1,4 @@
 const imgs = document.querySelectorAll('.header-slider ul img');
-const prev_btn = document.querySelector('.control-prev');
-const next_btn = document.querySelector('.control-next');
 
 let n = 0;
 
